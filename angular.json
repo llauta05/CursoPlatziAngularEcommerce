@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "platzi-angular"
+    }
+  },
+  "defaultProject": "platzi-angular",
+  "cli": {
+    "analytics": false
+  }
 }
