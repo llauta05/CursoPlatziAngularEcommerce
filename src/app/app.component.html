@@ -1,30 +1,5 @@
-<input type="text" [(ngModel)]="title">
-
-{{title}}
-
-<input type="number" [(ngModel)]="power">
-{{power | exponential}}
+<router-outlet></router-outlet>
 
 
-<div *ngIf="1 !== 1">
-  esto es un div
-</div>
 
-
-<button (click)="addItem()">add item</button>
-
-<ul>
-  <li *ngIf="amigos.length === 0">La lista esta vacia</li>
-  <li *ngFor="let name of amigos; index as i">
-    {{name}} {{i}}
-    <button (click)="deleteItem(i)">delete</button>
-  </li>
-</ul>
-
-<div class="product-grid" >
-
-  <app-product *ngFor="let product of products" (productClicked)="clickProduct($event)" [product]="product"></app-product>
-
-
-</div>
 
