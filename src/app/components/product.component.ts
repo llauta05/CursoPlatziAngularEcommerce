@@ -12,6 +12,7 @@ export class ProductComponent {
 
   today = new Date();
 
+
   addCart() {
     console.log('Add carrito');
     this.productClicked.emit(this.product.id);
