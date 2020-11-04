@@ -12,6 +12,10 @@ import { HomeComponent } from './home/home.component';
 import { ProductsComponent } from './products/products.component';
 import { ContactComponent } from './contact/contact.component';
 import { DemoComponent } from './demo/demo.component';
+import { FooterComponent } from './home/footer/footer.component';
+import { HeaderComponent } from './home/header/header.component';
+import { BannerComponent } from './home/banner/banner.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +27,11 @@ import { DemoComponent } from './demo/demo.component';
     HomeComponent,
     ProductsComponent,
     ContactComponent,
-    DemoComponent
+    DemoComponent,
+    FooterComponent,
+    HeaderComponent,
+    BannerComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
